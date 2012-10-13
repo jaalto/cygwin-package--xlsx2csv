@@ -4,5 +4,5 @@ bits inside the archive need to be located. Due to memory
 requirements, the conversion is handled by the expat SAX parser which
 can collect the strings into a simple dictionary, keyed by their
 relative position in the XML file."
-category: Python Utils
+category: Python Text
 requires: python
