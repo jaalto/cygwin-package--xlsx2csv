@@ -1,0 +1,90 @@
+#  This is manual page in Perl POD format. Read more at
+#  http://perldoc.perl.org/perlpod.html or run command:
+#
+#     perldoc perlpod | less
+#
+#  To check the syntax:
+#
+#     podchecker *.pod
+#
+#  Create manual page with command:
+#
+#    pod2man PAGE.N.pod > PAGE.N
+
+=pod
+
+=head1 NAME
+
+xlsx2csv - Convert xslx xml files to csv format
+
+=head1 SYNOPSIS
+
+  xlsx2csv [options] INFILE [OUTPUT FILE]
+
+=head1 DESCRIPTION
+
+The conversion uses Expat SAX parser for xml processing.
+
+=head1 OPTIONS
+
+=over 4
+
+=item B<-d DELIMITER, --delimiter=DELIMITER>
+
+Output csv columns delimiter. Use "tab" or "x09" for
+tab. Defaults to comma.
+
+=item B<-f DATEFORMAT, --dateformat=DATEFORMAT>
+
+Set date/time format. See strftime(3) for %-format specifiers. An
+example "%Y-%m-%d".
+
+=item B<-i, --ignoreempty>
+
+Skip empty lines.
+
+=item B<-p DATEFORMAT, --sheetdelimiter=SHEETDELIMITER>
+
+Sheet delimiter used to separate sheets, pass "" if you don't want
+delimiters. DEfaults to "--------".
+
+=item B<-r, --recursive>
+
+Convert recursively.
+
+=item B<-s SHEETID, --sheet=SHEETID>
+
+Sheet to convert (0 for all sheets).
+
+=item B<-h, --help>
+
+Display short help and exit.
+
+=item B<--version>
+
+Display program's version number and exit.
+
+=back
+
+=head1 ENVIRONMENT
+
+None.
+
+=head1 FILES
+
+None.
+
+=head1 SEE ALSO
+
+catdoc(1)
+
+=head1 AUTHORS
+
+Program was written by Dilshod Temirkhodjaev <tdilshod@gmail.com>
+
+This manual page was written by Jari Aalto <jari.aalto@cante.net>. Released
+under license GNU GPL version 2 or (at your option) any later
+version. For more information about the license, visit
+<http://www.gnu.org/copyleft/gpl.html>.
+
+=cut

@@ -1,0 +1,66 @@
+xlsx2csv
+------------------------------------------
+
+Convert xslx xml files to csv format
+
+The xlsx files are zip archives. In order to process the file, various
+bits inside the archive need to be located. Due to memory
+requirements, the conversion is handled by the expat SAX parser which
+can collects the strings into a simple dictionary, keyed by their
+relative position in the XML file.
+
+Runtime requirements:
+  python
+
+Build requirements:
+  python
+
+Canonical homepage:
+  https://github.com/dilshod/xlsx2csv
+
+Canonical download:
+  See above
+
+Version control repository:
+  https://github.com/dilshod/xlsx2csv
+  git clone git://github.com/dilshod/xlsx2csv.git
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Dilshod Temirkhodjaev <tdilshod@gmail.com>
+  Bugs:
+
+License:
+  GPL-2+
+
+Language:
+  Python
+
+------------------------------------------
+
+Build instructions:
+  unpack xlsx2csv-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./xlsx2csv*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 0.11+20120814+gitf54ab78-1 -----
+- Initial release 2012-10-13 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later
