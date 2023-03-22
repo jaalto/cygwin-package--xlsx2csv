@@ -22,8 +22,8 @@ Canonical download:
   See above
 
 Version control repository:
-  https://github.com/dilshod/xlsx2csv
-  git clone git://github.com/dilshod/xlsx2csv.git
+  https://github.com/dilshod/xlsx2csv.git
+  git https://github.com/dilshod/xlsx2csv.git
 
 Mailing list:
 
@@ -36,7 +36,7 @@ Upstream contact:
   Bugs: https://github.com/dilshod/xlsx2csv/issues
 
 License:
-  GPL-3+
+  MIT
 
 Language:
   Python
