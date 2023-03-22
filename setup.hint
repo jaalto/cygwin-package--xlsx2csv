@@ -7,3 +7,4 @@ can collect the strings into a simple dictionary, keyed by their
 relative position in the XML file."
 category: Python Text
 requires: python
+license: MIT
